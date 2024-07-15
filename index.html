@@ -1,0 +1,152 @@
+<!-- Margin Auto -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Center Div with Margin Auto</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        background-color: pink;
+      }
+      .centered-div {
+        width: 200px;
+        height: 200px;
+        background-color: #ffc107;
+        margin: auto;
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="centered-div"></div>
+    </div>
+  </body>
+</html>
+<!--Use flexbox to center the div  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Center Div with Flexbox</title>
+    <style>
+      /* Use flexbox to center the div */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: pink;
+      }
+      .centered-div {
+        width: 200px;
+        height: 200px;
+        background-color: #4caf50;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="centered-div"></div>
+  </body>
+</html>
+<!-- Use CSS Grid to center the div -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Center Div with Grid</title>
+    <style>
+      /* Use CSS Grid to center the div */
+      body {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: pink;
+      }
+      .centered-div {
+        width: 200px;
+        height: 200px;
+        background-color: #ff5722;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="centered-div"></div>
+  </body>
+</html>
+<!-- Absolute Positioning -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Center Div with Absolute Positioning</title>
+    <style>
+      body {
+        height: 100vh;
+        margin: 0;
+        position: relative;
+        background-color: pink;
+      }
+      .centered-div {
+        width: 200px;
+        height: 200px;
+        background-color: #2196f3;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="centered-div"></div>
+  </body>
+</html>
+<!-- Table Display -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Center Div with Table Display</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        display: table;
+        width: 100%;
+        background-color: pink;
+      }
+      .container {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+      }
+      .centered-div {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        background-color: #9c27b0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="centered-div"></div>
+    </div>
+  </body>
+</html>
